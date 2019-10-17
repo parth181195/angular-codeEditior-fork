@@ -1,0 +1,43 @@
+{
+  "name": "@kolkov/angular-editor",
+  "version": "1.0.0-beta.5",
+  "description": "A simple native WYSIWYG editor for Angular 6+, 7+, 8+. Rich Text editor component for Angular.",
+  "author": "Andrey Kolkov <a.kolkov@gmail.com>",
+  "repository": "https://github.com/kolkov/angular-editor",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/kolkov/angular-editor/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=8.0.0 <9",
+    "@angular/core": ">=8.0.0 <9",
+    "@angular/forms": ">=8.0.0 <9",
+    "@angular/platform-browser": ">=8.0.0 <9",
+    "rxjs": "^6.x.x"
+  },
+  "keywords": [
+    "angular",
+    "editor",
+    "native",
+    "wysiwyg",
+    "angular-editor",
+    "angular-wysiwyg-editor",
+    "wysiwyg-editor",
+    "rich",
+    "rich text editor"
+  ],
+  "main": "bundles/kolkov-angular-editor.umd.js",
+  "module": "fesm5/kolkov-angular-editor.js",
+  "es2015": "fesm2015/kolkov-angular-editor.js",
+  "esm5": "esm5/kolkov-angular-editor.js",
+  "esm2015": "esm2015/kolkov-angular-editor.js",
+  "fesm5": "fesm5/kolkov-angular-editor.js",
+  "fesm2015": "fesm2015/kolkov-angular-editor.js",
+  "typings": "kolkov-angular-editor.d.ts",
+  "metadata": "kolkov-angular-editor.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
